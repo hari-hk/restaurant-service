@@ -12,7 +12,17 @@ import { ReportModule } from './report/report.module';
 import { ConfigModule } from './config/config.module';
 
 @Module({
-  imports: [AuthModule, UserModule, TablesModule, BookingModule, MenuModule, OrdersModule, NotificationModule, ReportModule, ConfigModule],
+  imports: [
+    AuthModule,
+    UserModule,
+    TablesModule,
+    BookingModule,
+    MenuModule,
+    OrdersModule,
+    NotificationModule,
+    ReportModule,
+    ConfigModule,
+  ],
   controllers: [AppController],
   providers: [AppService],
 })
