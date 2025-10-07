@@ -9,9 +9,10 @@ import { MenuModule } from './menu/menu.module';
 import { OrdersModule } from './orders/orders.module';
 import { NotificationModule } from './notification/notification.module';
 import { ReportModule } from './report/report.module';
+import { ConfigModule } from './config/config.module';
 
 @Module({
-  imports: [AuthModule, UserModule, TablesModule, BookingModule, MenuModule, OrdersModule, NotificationModule, ReportModule],
+  imports: [AuthModule, UserModule, TablesModule, BookingModule, MenuModule, OrdersModule, NotificationModule, ReportModule, ConfigModule],
   controllers: [AppController],
   providers: [AppService],
 })
